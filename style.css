@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+}
+
+.game-container {
+	background-image: url("images/Background-Even.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+.score-container {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+span {
+	font-weight: bold;
+	color: black;
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.prompt {
+	position: absolute;
+	display: block;
+	top: 150px;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#player {
+	top: 150px;
+	left: 0px;
+	position: absolute;
+	height: 500px;
+}
+
+#ball {
+	position: absolute;
+	width: 75px;
+	top: 500px;
+	left: 1000px;
+}
